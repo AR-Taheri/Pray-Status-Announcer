@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net472</TargetFramework> <!-- Use .NET Framework 4.7.2 -->
+    <UseWPF>false</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <PlatformTarget>x86</PlatformTarget> <!-- Target platform (x86, x64, or AnyCPU) -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Add your necessary references here if any -->
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Drawing" />
+      <EmbeddedResource Include="icon.ico" />
+  </ItemGroup>
+
+</Project>
